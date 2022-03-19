@@ -16,5 +16,5 @@ dependencyResolutionManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = "BookList"
+rootProject.name = "TrialRename"
 include ':app'

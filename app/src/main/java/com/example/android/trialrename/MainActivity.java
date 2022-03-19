@@ -1,4 +1,4 @@
-package com.example.android.booklist;
+package com.example.android.trialrename;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

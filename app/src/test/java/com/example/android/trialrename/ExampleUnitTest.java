@@ -1,4 +1,4 @@
-package com.example.android.booklist;
+package com.example.android.trialrename;
 
 import org.junit.Test;
 

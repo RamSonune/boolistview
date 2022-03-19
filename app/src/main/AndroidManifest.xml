@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.booklist">
+    package="com.example.android.trialrename">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,23 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookList">
+
         <activity
-            android:name=".Money"
+            android:name="com.example.android.trialrename.Money"
             android:exported="false" />
         <activity
-            android:name=".Motivational"
+            android:name="com.example.android.trialrename.Motivational"
             android:exported="false" />
         <activity
-            android:name=".Cyber"
+            android:name="com.example.android.trialrename.Cyber"
             android:exported="false" />
         <activity
-            android:name=".Novels"
+            android:name="com.example.android.trialrename.Novels"
             android:exported="false" />
         <activity
-            android:name=".Registration"
+            android:name="com.example.android.trialrename.Registration"
             android:exported="false" />
         <activity
-            android:name=".LoginPage"
+            android:name="com.example.android.trialrename.LoginPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,19 +37,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Download"
+            android:name="com.example.android.trialrename.Download"
             android:exported="false" />
         <activity
-            android:name=".ViewOnline"
+            android:name="com.example.android.trialrename.ViewOnline"
             android:exported="false" />
         <activity
-            android:name=".BookSIngle"
+            android:name="com.example.android.trialrename.BookSIngle"
             android:exported="false" />
         <activity
-            android:name=".BooksList"
+            android:name="com.example.android.trialrename.BooksList"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.android.trialrename.MainActivity"
             android:exported="true" />
     </application>
 

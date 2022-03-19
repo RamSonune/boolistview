@@ -1,4 +1,4 @@
-package com.example.android.booklist;
+package com.example.android.trialrename;
 
 import android.content.Context;
 import android.view.LayoutInflater;

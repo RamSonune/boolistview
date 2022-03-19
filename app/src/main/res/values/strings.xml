@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BookList</string>
+    <string name="app_name">TrialRename</string>
     <string name="books">BOOKS</string>
     <string name="proramming_books_card">PRORAMMING BOOKS</string>
     <string name="proramming_books"></string>
@@ -19,6 +19,7 @@
     <string name="bookdes6">this is the book index 6</string>
     <string name="bookdes7">this is the book index 7</string>
     <string name="bookdes8">this is the book index 9</string>
+    <string name="MyLib">Mylib</string>
 
 
 </resources>

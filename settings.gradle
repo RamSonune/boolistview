@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+
+        google()
+        mavenCentral()
+    }
+    // above was the gradlePluginPortal , we deleted it and added it in the below along with the maven .. and also took the implementation as
+    // usual in the gradle module.
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "BookList"
+include ':app'

@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        // Check that you have the following line (if not, add it):
+        google()  // Google's Maven repository
+
+    }
+    dependencies {
+
+        // Add this line
+        classpath 'com.google.gms:google-services:4.3.10'
+        // this has to be added manually (not provided by the firebase)
+        classpath 'com.android.tools.build:gradle:4.1.3'
+
+    }
+}
+
+// the plugin was at the above but now came below of the build script
+plugins {
+    id 'com.android.application' version '7.1.0' apply false
+    id 'com.android.library' version '7.1.0' apply false
+}
+
+// this is the allprojects imported from the firebase sdk and this will come in the middle of the plugin and the task clean
+allprojects {
+
+    repositories {
+        // Check that you have the following line (if not, add it):
+        // keep the below google as the commented or else we will have to face the runtime error
+//        google()  // Google's Maven repository
+
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

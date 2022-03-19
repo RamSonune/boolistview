@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="books">BOOKS</string>
+    <string name="proramming_books_card">PRORAMMING BOOKS</string>
+    <string name="proramming_books"></string>
+    <string name="Novel">THE DREAMER</string>
+    <string name="novel">Deep dive into the world of imagination by opening this section</string>
+
+    <string name="CyberSuraksha">CYBER SURAKSHA</string>
+
+    <string name="bookdes0">this is the book of the C ++ this language can be used to design games</string>
+    <string name="bookdes1">this is the book of the data science now the data has become the new feul and with the new feul we are driving the vehicle of the technology</string>
+    <string name="bookdes2">this is the book of the C ++ this language can be used to design games</string>
+
+    <string name="bookdes3">this is the book index 3</string>
+    <string name="bookdes4">this is the book index 4</string>
+    <string name="bookdes5">this is the book index 5</string>
+
+    <string name="bookdes6">this is the book index 6</string>
+    <string name="bookdes7">this is the book index 7</string>
+    <string name="bookdes8">this is the book index 9</string>
+
+
+</resources>
+
+
+    <!--    want to learn about the android development or want to learn Python and-->

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="WELCOME ,"
+            android:layout_marginEnd="15dp"
+            android:textSize="30sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/UserInMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WELCOME"
+            android:textSize="30sp"
+            >
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="60dp"
+        android:id="@+id/firstCard"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        android:layout_marginBottom="50dp"
+        app:cardBackgroundColor="#1D53A6"
+        app:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cpp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/proramming_books_card"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to learn Android development or want to know more about the Python or want to get started with progamming then explore the world of progamming!"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/NovelCV"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="#4E0606"
+        app:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/roomonefive">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Novel"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#BF360C"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:textColor="#BF360C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/novel"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:id="@+id/CyberCV"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="#5F90E1"
+        app:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/whitehat">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CyberSuraksha"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to learn Android development or want to know more about the Python or want to get started with progamming then explore the world of progamming!"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/MotivationalCV"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="#1D53A6"
+        app:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/apjabdulji">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSPIRATIONAL"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to learn Android development or want to know more about the Python or want to get started with progamming then explore the world of progamming!"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/MoneyCV"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="#1D53A6"
+        app:cardCornerRadius="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/apjabdulji">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Money Mantra"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to learn Android development or want to know more about the Python or want to get started with progamming then explore the world of progamming!"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>
+
+<!--    app:cardBackgroundColor="#0D47A1"-->
+
+
+<!--<TextView-->
+<!--android:id="@+id/booksMain"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="150dp"-->
+<!--android:text="@string/books"-->
+<!--android:background="#5E35B1"-->
+<!--android:textSize="40sp"-->
+<!--android:textColor="@color/black"-->
+<!--android:layout_marginBottom="10dp"-->
+<!--android:textAlignment="center">-->
+<!--</TextView>-->
